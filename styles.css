@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    z-index: 2;
+}
+
+.banner {
+    background: url('cheeseburger.jpg');
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.card {
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#single {
+    background-color: red;
+    color: white;
+}
+
+#double {
+    background-color: blue;
+    color: white;
+}
+
+#triple {
+    background-color: yellow;
+    color: black;
+}
+
+#burger-icon {
+    font-size: 2rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: left;
+}
+
+#cancel {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid red;
+    cursor: pointer;
+    outline: none;
+}
+
+#cancel:hover {
+    background-color: red;
+    color: white;
+}
