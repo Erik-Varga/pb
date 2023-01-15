@@ -9,7 +9,7 @@ const orderTripleBtn = document.getElementById("order-triple");
 const cancelBtn = document.getElementById("cancel");
 
 function singleQuote() {
-    quoteText.textContent = 'Total Pushy Price: $300';
+    quoteText.textContent = 'Total: $300';
     orderSingleBtn.innerText = 'Selected';
     orderDoubleBtn.innerText = 'Select';
     orderTripleBtn.innerText = 'Select';
@@ -19,7 +19,7 @@ function singleQuote() {
 }
 
 function doubleQuote() {
-    quoteText.textContent = 'Total Pushy Price: $500';
+    quoteText.textContent = 'Total: $500';
     orderSingleBtn.innerText = 'Select';
     orderDoubleBtn.innerText = 'Selected';
     orderTripleBtn.innerText = 'Select';
@@ -29,7 +29,7 @@ function doubleQuote() {
 }
 
 function tripleQuote() {
-    quoteText.textContent = 'Total Pushy Price: $600';
+    quoteText.textContent = 'Total: $600';
     orderSingleBtn.innerText = 'Select';
     orderDoubleBtn.innerText = 'Select';
     orderTripleBtn.innerText = 'Selected';
